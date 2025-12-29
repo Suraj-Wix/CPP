@@ -6,7 +6,7 @@ void printALLPairs(int arr[],int n){
 
     for(int i=0; i<n;i++){
         // for every i, we are runnig looping variable "j"form start to end
-        for(int j=i; j<n-i;j++){
+        for(int j=i; j<n;j++){
             cout<<arr[i]<<", "<<arr[j]<<endl;
         }
     }
