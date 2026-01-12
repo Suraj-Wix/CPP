@@ -9,7 +9,7 @@ using namespace std;
 //     int decimal=0;
 //     int i=0;
 //     while(n)
-//     {
+//     {_
 //         int bit=n%10;
 //         decimal=decimal+bit*pow(2,i++);
 //         n/=10;
