@@ -17,14 +17,22 @@ int main(){
 
    first.insert(first.begin(),100); 
     //100->10->20->10
-    
-    cout<<"before removing: "<<endl;
-    list<int>::iterator it1=first.begin();
+   
+    cout<<first.size()<<endl;
+    first.erase(first.begin(),first.end());
+    cout<<first.size()<<endl;
 
-    while(it1 !=first.end()){
-        cout<<*it1<<" ";
-        it1++;
-    }cout<<endl;
+
+
+
+
+    // cout<<"before removing: "<<endl;
+    // list<int>::iterator it1=first.begin();
+
+    // while(it1 !=first.end()){
+    //     cout<<*it1<<" ";
+    //     it1++;
+    // }cout<<endl;
 
 
 
