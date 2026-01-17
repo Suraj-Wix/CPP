@@ -33,5 +33,8 @@ int main(){
         cout<<"stack is not empty"<<endl;
     }
 
+    // stack<int>::iterator it=st.begin(); // stack me iterator name ka kuch hai nhi app pop kr ke iterate kr sakte hai
+    // ak element pakda bhir itrate and agla element pakda fir itrate
+
     return 0;
 }

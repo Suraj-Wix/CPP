@@ -54,5 +54,11 @@ int main(){
     //     cout<<"Queue is not empty"<<endl;
     // }
 
+
+    // queue<int>::iterator it=queue.begin();
+    // iterator name ka kuch chijh hai hi nahi
+    // front se pop kr na padega agla element aayega
+    // front se pop kr na padega ........
+
     return 0;
 }
