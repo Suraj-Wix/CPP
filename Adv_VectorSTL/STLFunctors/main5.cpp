@@ -23,7 +23,7 @@ class Student{
 class comparator{
     public:
         bool operator()(Student a, Student b){
-            // criteria -> min marks->high priority
+            // criteria -> max marks->high priority
             return a.marks<b.marks;
 
         }
